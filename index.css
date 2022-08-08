@@ -11,6 +11,15 @@ body {
     background-color: salmon;
 }
 
+header, article {
+    border-radius: .75em;
+    margin-bottom: 1em;
+}
+
+img, header, article {
+    box-shadow: 3px 5px 5px rgba(0,0,0,0.3);
+}
+
 article {
     background-image: linear-gradient(175deg, salmon, lightblue);
 }
@@ -19,9 +28,17 @@ header {
     background-image: url("https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80");
     background-size: cover;
     color: #fff;
+    border: 3px solid lightseagreen;
+    text-shadow: 3px 2px 7px rgba(255,255,255,0.3);
 }
 
 /* Link Styles */
 a {
     color: lightseagreen;
+}
+
+img {
+    display: block;
+    height: 20%;
+    border: 2px solid black;
 }
